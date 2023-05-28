@@ -10,7 +10,6 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 class CallbackTest {
-
     @Test
     void shouldTestVPositive() {
         open("http://localhost:9999");
